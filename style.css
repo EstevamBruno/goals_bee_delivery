@@ -4,6 +4,7 @@
   --white: #FFFFFF;
   --black: #141414;
   --gray: rgba(0, 0, 0, .2);
+  --progreess: #aa9336;
 }
 
 * {
@@ -76,8 +77,8 @@ body {
   margin: 1.2rem 0 0;
   background: linear-gradient(
     to right,
-    var(--black) 0%,
-    var(--black)25%,
+    var(--progreess) 0%,
+    var(--progreess) 25%,
     var(--secondary) 25%,
     var(--secondary) 100%
   );
@@ -230,24 +231,6 @@ body {
     font-size: 2.4rem;
     text-align: left;
   }
-  
-  #goals_container .goals_content .goals_current_values {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.6rem;
-    margin: 1.2rem 0 0;
-    background: linear-gradient(
-      to right,
-      var(--black) 0%,
-      var(--black)25%,
-      var(--secondary) 25%,
-      var(--secondary) 100%
-    );
-    border-radius: 0.6rem;
-  }
 
   #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_column {
     display: flex;
@@ -256,14 +239,14 @@ body {
 
   #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_column p {
     font-size: 1.8rem;
-    color: var(--primary);
+    color: var(--white);
     font-weight: 700;
     word-break: break-all;
   }
 
   #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_column p + p {
     font-size: 1rem;
-    color: var(--primary);
+    color: var(--white);
     font-weight: 700;
     letter-spacing: -0.04em;
   }
@@ -401,25 +384,6 @@ body {
     font-size: 3.6rem;
     text-align: center;
   }
-  
-  #goals_container .goals_content .goals_current_values {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.6rem;
-    margin: 1.2rem 0 0;
-    background: linear-gradient(
-      to right,
-      var(--black) 0%,
-      var(--black)25%,
-      var(--secondary) 25%,
-      var(--secondary) 100%
-    );
-    border-radius: 0.6rem;
-    box-shadow: 1px 1px var(--gray);
-  }
 
   #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_column {
     display: flex;
@@ -428,14 +392,14 @@ body {
 
   #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_column p {
     font-size: 1.8rem;
-    color: var(--primary);
+    color: var(--black);
     font-weight: 700;
     word-break: break-all;
   }
 
   #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_column p + p {
     font-size: 1rem;
-    color: var(--primary);
+    color: var(--black);
     font-weight: 700;
     letter-spacing: -0.04em;
   }
@@ -496,7 +460,7 @@ body {
   #goals_container .goals_content .goals_cards_container .goals_card_content .goals_card .goals_separator {
     width: 100%;
     height: .5px;
-    background-color: var(--gray)
+    background-color: var(--gray);
   }
 
   #goals_container .goals_content .goals_cards_container .goals_card .goals_card_wrapper_row {
