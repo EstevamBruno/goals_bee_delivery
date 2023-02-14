@@ -204,25 +204,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1024px) {
-  body {
-    background-color: var(--primary);
-    -webkit-font-smoothing: antialiased;
-    padding: 2.4rem;
-  }
-
-  #goals_container {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-  }
-
-  .goals_content {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-  }
-  
+@media screen and (max-width: 1284px) {
   #goals_container .goals_content .goals_header {
     display: flex;
     flex-direction: column;
@@ -380,15 +362,6 @@ body {
 }
 
 @media screen and (max-width: 780px ) {
-  body {
-    background-color: var(--primary);
-    background-image: url(assets/svg/goals_background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-font-smoothing: antialiased;
-    padding: 2.4rem;
-  }
-
   #goals_container {
     display: flex;
     flex: 1;
