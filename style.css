@@ -93,14 +93,14 @@ body {
 
 #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_column p {
   font-size: 1.8rem;
-  color: var(--primary);
+  color: val(--black);
   font-weight: 700;
   word-break: break-all;
 }
 
 #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_column p + p {
   font-size: 1rem;
-  color: var(--primary);
+  color: val(--black);
   font-weight: 700;
   letter-spacing: -0.04em;
 }
@@ -239,14 +239,14 @@ body {
 
   #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_column p {
     font-size: 1.8rem;
-    color: var(--white);
+    color: val(--black);
     font-weight: 700;
     word-break: break-all;
   }
 
   #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_column p + p {
     font-size: 1rem;
-    color: var(--white);
+    color: val(--black);
     font-weight: 700;
     letter-spacing: -0.04em;
   }
