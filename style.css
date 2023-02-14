@@ -197,10 +197,10 @@ body {
   letter-spacing: -0.04em;
 }
 
-@media screen and (max-width: 1400px ) {
+@media screen and (max-width: 1400px) {
   #goals_container .goals_content .goals_cards_container .goals_card:nth-child(2) {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
   }
 }
 
@@ -218,12 +218,12 @@ body {
 
   #goals_container .goals_content .goals_header .goals_bee_logo {
     content: url(assets/svg/bee_logo_md.svg);
-    width: 7rem;
+    width: 12rem;
   }
   
   #goals_container .goals_content .goals_header .goals_image {
     content: url(assets/svg/goals_md.svg);
-    width: 12rem;
+    width: 24rem;
   }
 
   #goals_container .goals_content .goals_header h1 {
@@ -309,7 +309,8 @@ body {
   }
 
   #goals_container .goals_content .goals_cards_container .goals_card:nth-child(2) {
-    margin: 0s
+    margin-left: 0;
+    margin-right: 0;
   }
 
   #goals_container .goals_content .goals_cards_container .goals_card_content .goals_card p {
