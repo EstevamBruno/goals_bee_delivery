@@ -498,6 +498,58 @@ body {
 }
 
 @media screen and (max-width: 425px) {
+  #goals_container .goals_content .goals_current_values {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.4rem;
+    margin: 1.2rem 0 0;
+    background: linear-gradient(
+      to right,
+      var(--progreess) 0%,
+      var(--progreess) 25%,
+      var(--secondary) 25%,
+      var(--secondary) 100%
+    );
+    border-radius: 0.6rem;
+    box-shadow: 1px 1px var(--gray);
+  }
+
+  #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_column p {
+    font-size: 2.4rem;
+    color: var(--black);
+    font-weight: 700;
+    word-break: break-all;
+  }
+
+  #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_column p + p {
+    font-size: 1.6rem;
+    color: var(--black);
+    font-weight: 700;
+    letter-spacing: -0.04em;
+  }
+
+  #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_row p {
+    font-size: 1.6rem;
+    color: val(--black);
+    font-weight: 400;
+    margin: 0.2rem;
+  }
+
+  #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_row p + p {
+    font-size: 2.4rem;
+    color: var(--black);
+    font-weight: 600;
+    letter-spacing: -0.04em;
+  }
+  
   #goals_container .goals_content .goals_header .goals_bee_logo {
     content: url(assets/svg/bee_logo_sm.svg);
     width: 4rem;
