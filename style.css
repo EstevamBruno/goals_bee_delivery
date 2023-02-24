@@ -67,6 +67,7 @@ body {
   font-size: 4.2rem;
 }
 
+/* ALTERAR CORES PARA O PROGRESS */
 #goals_container .goals_content .goals_current_values {
   display: flex;
   flex: 1;
@@ -219,12 +220,12 @@ body {
 
   #goals_container .goals_content .goals_header .goals_bee_logo {
     content: url(assets/svg/bee_logo_md.svg);
-    width: 12rem;
+    width: 6rem;
   }
   
   #goals_container .goals_content .goals_header .goals_image {
     content: url(assets/svg/goals_md.svg);
-    width: 24rem;
+    width: 12rem;
   }
 
   #goals_container .goals_content .goals_header h1 {
@@ -253,7 +254,7 @@ body {
 
   #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_row {
     display: flex;
-    align-items: baseline;
+    align-items: center;
   }
 
   #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_row p {
@@ -371,13 +372,11 @@ body {
   }
 
   #goals_container .goals_content .goals_header .goals_bee_logo {
-    content: url(assets/svg/bee_logo_lg.svg);
-    width: 12rem;
+    content: url(assets/svg/bee_logo_md.svg);
   }
   
   #goals_container .goals_content .goals_header .goals_image {
-    content: url(assets/svg/goals_lg.svg);
-    width: 24rem;
+    content: url(assets/svg/goals_md.svg);
   }
 
   #goals_container .goals_content .goals_header h1 {
@@ -406,7 +405,7 @@ body {
 
   #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_row {
     display: flex;
-    align-items: baseline;
+    align-items: center;
   }
 
   #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_row p {
@@ -501,26 +500,16 @@ body {
 @media screen and (max-width: 425px) {
   #goals_container .goals_content .goals_header .goals_bee_logo {
     content: url(assets/svg/bee_logo_sm.svg);
-    width: 6rem;
+    width: 4rem;
   }
   
   #goals_container .goals_content .goals_header .goals_image {
     content: url(assets/svg/goals_sm.svg);
-    width: 12rem;
+    width: 8rem;
   }
 
   #goals_container .goals_content .goals_header h1 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-align: center;
-  }
-}
-
-@media screen and (max-width: 325px) {
-  #goals_container .goals_header .goals_bee_logo {
-    content: url(assets/svg/bee_logo_sm.svg);
-  }
-  
-  #goals_container .goals_header .goals_image {
-    content: url(assets/svg/goals_sm.svg);
   }
 }
