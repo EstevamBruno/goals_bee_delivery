@@ -55,16 +55,16 @@ body {
 
 #goals_container .goals_content .goals_header .goals_bee_logo {
   content: url(assets/svg/bee_logo_lg.svg);
-  width: 12rem;
+  width: 8rem;
 }
 
 #goals_container .goals_content .goals_header .goals_image {
   content: url(assets/svg/goals_lg.svg);
-  width: 24rem;
+  width: 16rem;
 }
 
 #goals_container .goals_content .goals_header h1 {
-  font-size: 3.6rem;
+  font-size: 4.2rem;
 }
 
 #goals_container .goals_content .goals_current_values {
@@ -73,7 +73,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 1.6rem;
+  padding: 2.4rem;
   margin: 1.2rem 0 0;
   background: linear-gradient(
     to right,
@@ -92,14 +92,14 @@ body {
 }
 
 #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_column p {
-  font-size: 1.8rem;
+  font-size: 4.2rem;
   color: val(--black);
   font-weight: 700;
   word-break: break-all;
 }
 
 #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_column p + p {
-  font-size: 1rem;
+  font-size: 4.2rem;
   color: val(--black);
   font-weight: 700;
   letter-spacing: -0.04em;
@@ -107,18 +107,18 @@ body {
 
 #goals_container .goals_current_values .goals_current_values_wrapper_row {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 
 #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_row p {
-  font-size: 1rem;
+  font-size: 2.4rem;
   color: val(--black);
   font-weight: 400;
   margin: 0.2rem;
 }
 
 #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_row p + p {
-  font-size: 1.2rem;
+  font-size: 4.2rem;
   color: var(--black);
   font-weight: 600;
   letter-spacing: -0.04em;
@@ -137,7 +137,7 @@ body {
   display: flex;
   flex: 1;
   flex-direction: column;
-  padding: 1.6rem;
+  padding: 2.4rem;
   margin: 1.2rem 0 0;
   background-color: var(--secondary);
   border-radius: 0.6rem;
@@ -151,7 +151,7 @@ body {
 }
 
 #goals_container .goals_content .goals_cards_container .goals_card_content .goals_card p {
-  font-size: 1rem;
+  font-size: 1.6rem;
   color: var(--black);
   font-weight: 600;
   margin: 0 0 .4rem;
@@ -179,7 +179,7 @@ body {
 }
 
 #goals_container .goals_content .goals_cards_container .goals_card .goals_card_wrapper_row p {
-  font-size: 1.6rem;
+  font-size: 2.6rem;
   font-weight: 600;
   letter-spacing: -0.04em;
   word-break: break-all;
@@ -198,7 +198,7 @@ body {
   letter-spacing: -0.04em;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1800px) {
   #goals_container .goals_content .goals_cards_container .goals_card:nth-child(2) {
     margin-left: 1.6rem;
     margin-right: 1.6rem;
