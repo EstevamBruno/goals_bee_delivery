@@ -25,20 +25,20 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-font-smoothing: antialiased;
-  padding: 2.4rem;
+  margin: 0px;
 }
 
 #goals_container {
   display: flex;
-  flex: 1;
   justify-content: center;
+  align-items: center;
+  padding: 2.4rem;
 }
 
 .goals_content {
   display: flex;
   flex: 1;
   flex-direction: column;
-  max-width: 1440px;
 }
 
 #goals_container .goals_content .goals_header {
@@ -64,7 +64,7 @@ body {
 }
 
 #goals_container .goals_content .goals_header h1 {
-  font-size: 4.2rem;
+  font-size: 3.2rem;
 }
 
 /* ALTERAR CORES PARA O PROGRESS */
@@ -347,23 +347,6 @@ body {
 }
 
 @media screen and (max-width: 780px ) {
-  #goals_container {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-  }
-
-  .goals_content {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-  }
-  
-  #goals_container .goals_content .goals_header {
-    display: flex;
-    flex-direction: column;
-  }
-
   #goals_container .goals_content .goals_header .goals_header_wrapper {
     display: flex;
     flex-direction: row;
@@ -380,7 +363,7 @@ body {
   }
 
   #goals_container .goals_content .goals_header h1 {
-    font-size: 3.6rem;
+    font-size: 2.6rem;
     text-align: center;
   }
 
@@ -390,14 +373,14 @@ body {
   }
 
   #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_column p {
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     color: var(--black);
     font-weight: 700;
     word-break: break-all;
   }
 
   #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_column p + p {
-    font-size: 1rem;
+    font-size: 2.4rem;
     color: var(--black);
     font-weight: 700;
     letter-spacing: -0.04em;
@@ -409,14 +392,14 @@ body {
   }
 
   #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_row p {
-    font-size: 1rem;
+    font-size: 1.6rem;
     color: val(--black);
     font-weight: 400;
     margin: 0.2rem;
   }
 
   #goals_container .goals_content .goals_current_values .goals_current_values_wrapper_row p + p {
-    font-size: 1.2rem;
+    font-size: 2.4rem;
     color: var(--black);
     font-weight: 600;
     letter-spacing: -0.04em;
@@ -449,7 +432,7 @@ body {
   }
 
   #goals_container .goals_content .goals_cards_container .goals_card_content .goals_card p {
-    font-size: 1rem;
+    font-size: 1.6rem;
     color: var(--black);
     font-weight: 600;
     margin: 0 0 .4rem;
