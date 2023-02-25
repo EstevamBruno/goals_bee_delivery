@@ -284,8 +284,18 @@ body {
 }
 
 @media screen and (max-width: 768px ) {
+  #goals_container .goals_content .goals_header .goals_bee_logo {
+    content: url(assets/svg/bee_logo_sm.svg);
+    width: 4rem;
+  }
+  
+  #goals_container .goals_content .goals_header .goals_image {
+    content: url(assets/svg/goals_sm.svg);
+    width: 8rem;
+  }
+
   #goals_container .goals_content .goals_header h1 {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     text-align: center;
   }
 
@@ -315,6 +325,14 @@ body {
     font-size: 2.4rem;
   }
 
+  #goals_container .goals_content .goals_cards_container .goals_card_content .goals_card p {
+    font-size: 1rem;
+  }
+
+  #goals_container .goals_content .goals_cards_container .goals_card .goals_card_wrapper_row p {
+    font-size: 1.6rem;
+  }
+
   #goals_container .goals_content .goals_cards_container .goals_card .goals_card_wrapper_row .content p {
     font-size: 1rem;
   }
@@ -333,16 +351,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  #goals_container .goals_content .goals_header .goals_bee_logo {
-    content: url(assets/svg/bee_logo_sm.svg);
-    width: 4rem;
-  }
-  
-  #goals_container .goals_content .goals_header .goals_image {
-    content: url(assets/svg/goals_sm.svg);
-    width: 8rem;
   }
 
   #goals_container .goals_content .goals_header h1 {
